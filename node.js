@@ -9,7 +9,7 @@ app.use(express.json());
 const verificationToken = 'a94cbd68e463cb9780e2008b1f61986110a5fd0ff8b99c9cba15f1f802ad65f9';
 
 // Your endpoint URL (will be provided by Render)
-const endpointUrl = 'https://your-app-name.onrender.com/ebay-notifications'; // Update after deployment
+const endpointUrl = 'https://ebaycardfetch.onrender.com/ebay-notifications'; // Update after deployment
 
 // Handle eBay verification challenge (GET request)
 app.get('/ebay-notifications', (req, res) => {
