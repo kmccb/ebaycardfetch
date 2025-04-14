@@ -1,0 +1,12 @@
+{
+    "name": "ebay-webhook",
+    "version": "1.0.0",
+    "description": "Webhook for eBay Marketplace Account Deletion Notifications",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
