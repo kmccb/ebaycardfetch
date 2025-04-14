@@ -4,10 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-// Verification token from the eBay form
 const verificationToken = 'a94cbd68e463cb9780e2008b1f61986110a5fd0ff8b99c9cba15f1f802ad65f9';
-
-// Endpoint URL (must match exactly what you entered in eBay)
 const endpointUrl = 'https://ebaycardfetch.onrender.com/ebay-notifications';
 
 app.get('/ebay-notifications', (req, res) => {
